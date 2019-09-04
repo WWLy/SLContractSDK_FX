@@ -3,10 +3,8 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SLContractSDK_FX"
   spec.version      = "0.0.1"
-  spec.summary      = "合约交易"
-  spec.description  = <<-DESC 
-  合约交易
-                   DESC
+  spec.summary      = "合约交易" # 简介
+  spec.description  = "合约交易（不包含界面）"   # 描述
 
   spec.homepage     = "https://github.com/wwly/SLContractSDK_FX"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
